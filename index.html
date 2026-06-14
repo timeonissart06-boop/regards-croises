@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Regards Croisés — Les Érudits. Une exposition photographique autour des sept péchés capitaux.">
+  <title>Regards Croisés — Les Érudits</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Fond dynamique — image plein écran au hover (avant tout le contenu) -->
+<div id="sinBg" class="sin-bg">
+  <img id="sinBgImg" class="sin-bg__image" src="" alt="" aria-hidden="true">
+  <div class="sin-bg__overlay"></div>
+</div>
+
+<!-- ═══ NAV ═══════════════════════════════════════ -->
+<nav class="site-nav" role="navigation" aria-label="Navigation principale">
+  <div class="site-nav__inner">
+    <a href="index.html" class="site-nav__logo" aria-label="Accueil">
+      <img src="images/logo.png" alt="Regards Croisés">
+    </a>
+    <ul class="site-nav__links" role="list">
+      <li><a href="index.html"   class="site-nav__link active">Accueil</a></li>
+      <li><a href="galerie.html" class="site-nav__link">Galerie</a></li>
+      <li><a href="a-propos.html" class="site-nav__link">À Propos</a></li>
+    </ul>
+    <button class="site-nav__toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ═══ MOBILE OVERLAY ═══════════════════════════ -->
+<div class="nav-overlay" role="dialog" aria-modal="true">
+  <button class="nav-overlay__close" aria-label="Fermer">✕</button>
+  <nav>
+    <a href="index.html"   class="nav-overlay__link">Accueil</a>
+    <a href="galerie.html" class="nav-overlay__link">Galerie</a>
+    <a href="a-propos.html" class="nav-overlay__link">À Propos</a>
+  </nav>
+</div>
+
+<!-- ═══ HOME — ÉCRAN IMMERSIF ═════════════════════ -->
+<div class="home-hero">
+
+  <!-- Identité — titre + groupe -->
+  <div class="home-identity">
+    <h1 class="home-title fade-up">Regards<br>Croisés</h1>
+    <p class="home-sub fade-up">Les Érudits</p>
+  </div>
+
+  <!-- Roue géante — sort du bas de l'écran -->
+  <div class="wheel-immersive">
+    <svg id="sinsWheel" class="sins-wheel" viewBox="0 0 600 600"
+         xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Roue des sept péchés capitaux">
+      <defs id="wheelDefs"></defs>
+      <!-- Fond noir — visible dans les séparateurs entre segments -->
+      <circle cx="300" cy="300" r="255" fill="#000"/>
+      <g id="wheelSegs"></g>
+    </svg>
+  </div>
+
+  <p class="wheel-hint" aria-hidden="true">↺ Tournez pour explorer</p>
+
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

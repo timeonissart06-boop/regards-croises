@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galerie — Regards Croisés. Les sept péchés capitaux en images.">
+  <title>Galerie — Regards Croisés</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══ NAV ═══════════════════════════════════════ -->
+<nav class="site-nav scrolled" role="navigation" aria-label="Navigation principale">
+  <div class="site-nav__inner">
+    <a href="index.html" class="site-nav__logo" aria-label="Accueil">
+      <img src="images/logo.png" alt="Regards Croisés">
+    </a>
+    <ul class="site-nav__links" role="list">
+      <li><a href="index.html"   class="site-nav__link">Accueil</a></li>
+      <li><a href="galerie.html" class="site-nav__link active">Galerie</a></li>
+      <li><a href="a-propos.html" class="site-nav__link">À Propos</a></li>
+    </ul>
+    <button class="site-nav__toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="nav-overlay" role="dialog" aria-modal="true">
+  <button class="nav-overlay__close" aria-label="Fermer">✕</button>
+  <nav>
+    <a href="index.html"   class="nav-overlay__link">Accueil</a>
+    <a href="galerie.html" class="nav-overlay__link">Galerie</a>
+    <a href="a-propos.html" class="nav-overlay__link">À Propos</a>
+  </nav>
+</div>
+
+<!-- ═══ HERO ══════════════════════════════════════ -->
+<header class="gallery-hero">
+  <div class="gallery-hero__bg-text" aria-hidden="true">Galerie</div>
+  <div class="gallery-hero__content">
+    <span class="gallery-hero__label">Regards Croisés — Les Érudits</span>
+    <h1 class="gallery-hero__title">L'exposition</h1>
+    <p class="gallery-hero__desc">
+      Sept photographes, sept péchés capitaux, sept visions du monde intérieur.<br>
+      Une plongée dans les passions les plus profondes de l'âme humaine.
+    </p>
+  </div>
+</header>
+
+<!-- ═══ NAV SECONDAIRE ════════════════════════════ -->
+<nav class="gallery-nav" aria-label="Navigation par péché">
+  <ul class="gallery-nav__list" role="list">
+    <li><a href="#avarice"     class="gallery-nav__link">01 — Avarice</a></li>
+    <li><a href="#colere"      class="gallery-nav__link">02 — Colère</a></li>
+    <li><a href="#envie"       class="gallery-nav__link">03 — Envie</a></li>
+    <li><a href="#gourmandise" class="gallery-nav__link">04 — Gourmandise</a></li>
+    <li><a href="#luxure"      class="gallery-nav__link">05 — Luxure</a></li>
+    <li><a href="#orgueil"     class="gallery-nav__link">06 — Orgueil</a></li>
+    <li><a href="#paresse"     class="gallery-nav__link">07 — Paresse</a></li>
+  </ul>
+</nav>
+
+<!-- ═══ BLOCS GALERIE ════════════════════════════ -->
+<main id="main-content">
+
+  <!-- 01 — AVARICE -->
+  <section class="gallery-block gallery-block--left" id="avarice" aria-label="Avarice">
+    <div class="gallery-block__image-wrap">
+      <img src="images/Avarice%20(v4).jpg" alt="L'Insatiable Avare — Version finale" loading="lazy">
+    </div>
+    <div class="gallery-block__content">
+      <div class="gallery-block__header">
+        <span class="gallery-block__number">01</span>
+        <span class="gallery-block__sin-name">Avarice</span>
+      </div>
+      <h2 class="gallery-block__title">L'Insatiable Avare</h2>
+      <div class="gallery-block__divider" style="background:#FFD220;"></div>
+      <p class="gallery-block__desc">
+        Ici, l'Avarice est représentée par un homme face à des montagnes de ressources. Il a les bras tendus vers ce qu'il convoite et semble tout acquérir sans en perdre une miette. Il est ambitieux et déterminé à faire, être et avoir mieux. Serait-ce à sa perte&nbsp;?
+      </p>
+      <a href="concept-avarice.html" class="btn btn--outline gallery-block__btn">
+        Voir le concept <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 02 — COLÈRE -->
+  <section class="gallery-block gallery-block--right" id="colere" aria-label="Colère">
+    <div class="gallery-block__image-wrap">
+      <img src="images/Col%C3%A8re%20v(4).jpg" alt="Colère Implosive d'une IA — Version finale" loading="lazy">
+    </div>
+    <div class="gallery-block__content">
+      <div class="gallery-block__header">
+        <span class="gallery-block__number">02</span>
+        <span class="gallery-block__sin-name">Colère</span>
+      </div>
+      <h2 class="gallery-block__title">Colère Implosive<br>d'une IA</h2>
+      <div class="gallery-block__divider" style="background:#D90E15;"></div>
+      <p class="gallery-block__desc">
+        Ici, la Colère est représentée à travers un homme qui ne sait plus se comporter autrement que comme l'IA. Ceci est mis en exergue grâce au texte&nbsp;: «&nbsp;Désolé, je ne suis pas sûr de comprendre&nbsp;».
+      </p>
+      <a href="concept-colere.html" class="btn btn--outline gallery-block__btn">
+        Voir le concept <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 03 — ENVIE -->
+  <section class="gallery-block gallery-block--left" id="envie" aria-label="Envie">
+    <div class="gallery-block__image-wrap">
+      <img src="images/Envie%20(v4)%20.jpg" alt="Envie Maladive — Version finale" loading="lazy">
+    </div>
+    <div class="gallery-block__content">
+      <div class="gallery-block__header">
+        <span class="gallery-block__number">03</span>
+        <span class="gallery-block__sin-name">Envie</span>
+      </div>
+      <h2 class="gallery-block__title">Envie Maladive</h2>
+      <div class="gallery-block__divider" style="background:#438B37;"></div>
+      <p class="gallery-block__desc">
+        Ici, l'Envie est représentée par un homme s'accoudant au rebord de son miroir&nbsp;; en train de fixer son reflet, sa version «&nbsp;parfaite&nbsp;». Cette photographie met en lumière la fixation sur le fait d'atteindre la perfection physique et mentale.
+      </p>
+      <a href="concept-envie.html" class="btn btn--outline gallery-block__btn">
+        Voir le concept <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 04 — GOURMANDISE -->
+  <section class="gallery-block gallery-block--right" id="gourmandise" aria-label="Gourmandise">
+    <div class="gallery-block__image-wrap">
+      <img src="images/Gourmandise%20(v4).jpg" alt="Irrémédiable Gourmandise — Version finale" loading="lazy">
+    </div>
+    <div class="gallery-block__content">
+      <div class="gallery-block__header">
+        <span class="gallery-block__number">04</span>
+        <span class="gallery-block__sin-name">Gourmandise</span>
+      </div>
+      <h2 class="gallery-block__title">Irrémédiable<br>Gourmandise</h2>
+      <div class="gallery-block__divider" style="background:#7B170F;"></div>
+      <p class="gallery-block__desc">
+        Ici, la Gourmandise est représentée à travers une femme qui se rue sur des pâtisseries servies sur un plateau par un robot IA. Cette photographie met en avant l'envie démesurée de consommer, au-delà des besoins physiologiques.
+      </p>
+      <a href="concept-gourmandise.html" class="btn btn--outline gallery-block__btn">
+        Voir le concept <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 05 — LUXURE -->
+  <section class="gallery-block gallery-block--left" id="luxure" aria-label="Luxure">
+    <div class="gallery-block__image-wrap">
+      <img src="images/Luxure%20(v4).jpg" alt="L'Amorale Luxure — Version finale" loading="lazy">
+    </div>
+    <div class="gallery-block__content">
+      <div class="gallery-block__header">
+        <span class="gallery-block__number">05</span>
+        <span class="gallery-block__sin-name">Luxure</span>
+      </div>
+      <h2 class="gallery-block__title">L'Amorale Luxure</h2>
+      <div class="gallery-block__divider" style="background:#EB9BC3;"></div>
+      <p class="gallery-block__desc">
+        Ici, la Luxure est représentée par une femme et une IA dans la pénombre. Les deux s'observent et luttent contre leurs dernières réserves. Cette photographie met en avant la recherche d'acte charnel immoral, comme ici la liaison entre IA et humain.
+      </p>
+      <a href="concept-luxure.html" class="btn btn--outline gallery-block__btn">
+        Voir le concept <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 06 — ORGUEIL -->
+  <section class="gallery-block gallery-block--right" id="orgueil" aria-label="Orgueil">
+    <div class="gallery-block__image-wrap">
+      <img src="images/Orgueil%20(v4).jpg" alt="L'Hégémonique Orgueilleux — Version finale" loading="lazy">
+    </div>
+    <div class="gallery-block__content">
+      <div class="gallery-block__header">
+        <span class="gallery-block__number">06</span>
+        <span class="gallery-block__sin-name">Orgueil</span>
+      </div>
+      <h2 class="gallery-block__title">L'Hégémonique<br>Orgueilleux</h2>
+      <div class="gallery-block__divider" style="background:#D58553;"></div>
+      <p class="gallery-block__desc">
+        Ici, l'Orgueil est représenté par un homme assis de façon hautaine sur le dos d'une personne, tout en manipulant un jeune homme lui servant de marionnette. Cette image met en exergue l'envie néfaste que l'Homme peut avoir à vouloir exercer du contrôle sur autrui.
+      </p>
+      <a href="concept-orgueil.html" class="btn btn--outline gallery-block__btn">
+        Voir le concept <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 07 — PARESSE -->
+  <section class="gallery-block gallery-block--left" id="paresse" aria-label="Paresse">
+    <div class="gallery-block__image-wrap">
+      <img src="images/Paresse%20(v4).jpg" alt="Le Paresseux Sclérosé — Version finale" loading="lazy">
+    </div>
+    <div class="gallery-block__content">
+      <div class="gallery-block__header">
+        <span class="gallery-block__number">07</span>
+        <span class="gallery-block__sin-name">Paresse</span>
+      </div>
+      <h2 class="gallery-block__title">Le Paresseux<br>Sclérosé</h2>
+      <div class="gallery-block__divider" style="background:#76B2E1;"></div>
+      <p class="gallery-block__desc">
+        Ici, la Paresse est représentée à travers un homme qui ne sait plus se passer de l'IA, au point que son oisiveté triomphe sur qui il est dans sa singularité. Le titre évoque le fait qu'avec l'IA, il ne progresse plus, n'apprend plus et n'évolue plus.
+      </p>
+      <a href="concept-paresse.html" class="btn btn--outline gallery-block__btn">
+        Voir le concept <span class="btn-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══ FOOTER ════════════════════════════════════ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__logo">
+    <img src="images/logo.png" alt="Regards Croisés">
+  </div>
+  <p class="site-footer__center">
+    Regards Croisés — Les Érudits &nbsp;·&nbsp; Exposition photographique
+  </p>
+  <p class="site-footer__right">© 2026 &nbsp;·&nbsp; <a href="mentions-legales.html" class="site-footer__legal">Mentions légales</a></p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
